@@ -1,7 +1,9 @@
+-- core
 require("core.options")
 require("core.keymaps")
 
-require("plugins.plugins-setup")
+-- plugins
+require("plugins.plugins-setup") -- parker
 require("plugins.lualine")
 require("plugins.nvim-tree")
 require("plugins.bufferline")

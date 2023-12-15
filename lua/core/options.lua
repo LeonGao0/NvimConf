@@ -5,8 +5,8 @@
  vim.o.fileencoding = 'utf-8'
 
  -- jkhl 移动光标周围保留8行
- vim.o.scrolloff = 8
- vim.o.sidescrolloff = 8
+ vim.o.scrolloff = 12
+ vim.o.sidescrolloff = 12
  
  -- Hint
  opt.mouse:append("a")
@@ -25,7 +25,7 @@
  vim.o.smartindent = true
 
  -- UI config
- opt.relativenumber = true
+ opt.relativenumber = false
  opt.number = true
  opt.cursorline = true
  opt.splitright = true

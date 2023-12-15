@@ -12,7 +12,7 @@ map("i", "<C-h>", "<ESC>I", opt)
 map("i", "<C-l>", "<ESC>A", opt)
 
 -- trigger tree
-map("n", "<leader>e", ":NvimTreeToggle<CR>", opt)
+-- map("n", "<leader>e", ":NvimTreeToggle<CR>", opt)
 
 -- 
 map("n", "L", "g_", opt)
@@ -48,11 +48,11 @@ map("n", "<C-d>", "9j", opt)
 -- 左右比例控制
 map("n", "<C-Left>", ":vertical resize -2<CR>", opt)
 map("n", "<C-Right>", ":vertical resize +2<CR>", opt)
-map("n", "s,", ":vertical resize -20<CR>", opt)
-map("n", "s.", ":vertical resize +20<CR>", opt)
+ -- map("n", "s,", ":vertic----  al resize -20<CR>", opt)
+ -- map("n", "s.", ":vertical resize +20<CR>", opt)
 -- 上下比例
-map("n", "sj", ":resize +10<CR>", opt)
-map("n", "sk", ":resize -10<CR>", opt)
+--map("n", "sj", ":resize +10<CR>", opt)
+--map("n", "sk", ":resize -10<CR>", opt)
 map("n", "<C-Down>", ":resize +2<CR>", opt)
 map("n", "<C-Up>", ":resize -2<CR>", opt)
 -- 等比例
